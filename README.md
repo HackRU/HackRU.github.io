@@ -1,1 +1,2 @@
-# HackRU-Application
+# Splash-Page
+The Splash Page for HackRU

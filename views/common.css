@@ -54,6 +54,9 @@ div {
 	font-family: "Proxima Nova Lt";
 	font-size: 21px;
 }
+.text-wrapper h1 {
+    letter-spacing: 1px;
+}
 .text-wrapper img {
 	margin: 25px;
 }

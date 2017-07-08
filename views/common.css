@@ -49,13 +49,15 @@ div {
 	vertical-align: middle;
 	min-height: 100vh;
 }
+.logo {
+    width: 325px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .text-wrapper {
 	margin-top: 30px;
 	font-family: "Proxima Nova Lt";
 	font-size: 21px;
-}
-.text-wrapper h1 {
-    letter-spacing: 1px;
 }
 .text-wrapper img {
 	margin: 25px;

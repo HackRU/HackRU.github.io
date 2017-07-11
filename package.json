@@ -1,7 +1,7 @@
 {
   "name": "hackru",
   "version": "0.0.0",
-  "description": "HackRU Web App",
+  "description": "HackRU Splash Page",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",

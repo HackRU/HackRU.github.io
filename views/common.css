@@ -1,15 +1,29 @@
+/*@font-face {*/
+	/*font-family: "Proxima Nova Lt";*/
+	/*src: url(./assets/fonts/proximanova-light-webfont.eot),*/
+		/*url(./assets/fonts/proximanova-light-webfont.ttf),*/
+		/*url(./assets/fonts/proximanova-light-webfont.woff);*/
+/*}*/
+/*@font-face {*/
+	/*font-family: "Proxima Nova Bol";*/
+	/*src: url(./assets/fonts/proximanova-bold-webfont.eot),*/
+		/*url(./assets/fonts/proximanova-bold-webfont.ttf),*/
+		/*url(./assets/fonts/proximanova-bold-webfont.woff);*/
+/*}*/
+
 @font-face {
-	font-family: "Proxima Nova Lt";
-	src: url(./assets/proximanova-light-webfont.eot),
-		url(./assets/proximanova-light-webfont.ttf),
-		url(./assets/proximanova-light-webfont.woff);
+    font-family: "Circular Std Bold";
+    src: url(./assets/fonts/CircularStd-Bold.otf);
 }
 @font-face {
-	font-family: "Proxima Nova Bol";
-	src: url(./assets/proximanova-bold-webfont.eot),
-		url(./assets/proximanova-bold-webfont.ttf),
-		url(./assets/proximanova-bold-webfont.woff);
+    font-family: "Circular Std Book";
+    src: url(./assets/fonts/CircularStd-Book.otf);
 }
+@font-face {
+    font-family: "Circular Std Book Italic";
+    src: url(./assets/fonts/CircularStd-BookItalic.otf);
+}
+
 
 * {
 	-moz-box-sizing: border-box;
@@ -50,13 +64,14 @@ div {
 	min-height: 100vh;
 }
 .logo {
-    width: 325px;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 25px;
 }
 .text-wrapper {
 	margin-top: 30px;
-	font-family: "Proxima Nova Lt";
+	font-family: "Circular Std Book", sans-serif;
 	font-size: 21px;
 }
 .text-wrapper img {
@@ -64,7 +79,7 @@ div {
 }
 .coming-soon {
 	margin: 10px 0px 90px;
-	font-family: "Proxima Nova Lt";
+	font-family: "Circular Std Book", sans-serif;
 	text-transform: uppercase;
 	opacity: .8;
 	letter-spacing: 4px;
@@ -74,7 +89,6 @@ div {
 }
 .sponsors {
 	display: table;
-	margin-top: 150px;
 	width: 100%;
 	max-width: 700px;
 	margin: 0px auto;
@@ -103,20 +117,20 @@ div {
 }
 .projects {
 	width: 100%;
-	background-color: #ec232b;
+	background-color: #DC2430;
 	padding: 20px;
 	letter-spacing: 4px;
 	font-size: 14px;
-	font-family: "Proxima Nova Lt";
+	font-family: "Circular Std Book", sans-serif;
 	text-transform: uppercase;
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 	color: white;
 	transition: all .2s ease-in-out;
 	position: relative;
 }
 .projects:hover {
 	border-radius: 16px;
-	background-color: #e96427;
+	background-color: #7B4397;
 }
 .projects:before {
 	content: "Check out the amazing projects built last HackRU:";
@@ -130,7 +144,7 @@ div {
 }
 #mc_embed_signup {
 	margin-top: 30px;
-	font-family: "Proxima Nova Lt";
+	font-family: "Circular Std Book", sans-serif;
 	letter-spacing: 1px;
 	background: none;
 }
@@ -141,7 +155,7 @@ div {
 	width: 100%;
 }
 #mc_embed_signup .button {
-	background-color: #ec232b;
+	background-color: #DC2430;
 	font-size: 14px;
 	color: white; 	/*Connie's edit*/
 	text-transform: uppercase;
@@ -160,7 +174,7 @@ div {
 	padding-bottom: 0px;
 }
 #mc_embed_signup .button:hover {
-	background-color: #e96427;
+	background-color: #7B4397;
 	border-radius: 16px;
 }
 #mc_embed_signup .clear {
@@ -171,10 +185,9 @@ div {
 	font-size: 14px;
 }
 h1 {
-	font-family: "Proxima Nova Lt";
+	font-family: "Circular Std Bold", sans-serif;
 	font-size: 36px;
 	text-align: center;
-	letter-spacing: 4px;
 }
 sup {
 	font-size: 13px;

@@ -13,4 +13,6 @@ app.use(express.static(__dirname + "/views"));
 routes(app);
 
 // Launch
-app.listen(port);
+app.listen(port, function () {
+    console.log("express has started on port ", port);
+});

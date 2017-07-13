@@ -46,7 +46,7 @@ div {
 	text-align: center;
 }
 #home {
-	background-image: url(./assets/background.jpg);
+	background-image: url(./assets/background-black.jpg);
 	background-position: center bottom;
 	background-size: cover;
 	min-height: 100vh;
@@ -128,11 +128,12 @@ div {
 	transition: all .2s ease-in-out;
 	position: relative;
 }
-.projects:hover {
-	border-radius: 16px;
-	background-color: #7B4397;
+.projects:hover, #mc_embed_signup .button:hover {
+	/*border-radius: 16px;*/
+	background-color: #7b4397;
 }
 .projects:before {
+    color: white;
 	content: "Check out the amazing projects built last HackRU:";
 	position: absolute;
 	top: -25px;
@@ -157,26 +158,23 @@ div {
 #mc_embed_signup .button {
 	background-color: #DC2430;
 	font-size: 14px;
-	color: white; 	/*Connie's edit*/
+	color: white;
 	text-transform: uppercase;
 	letter-spacing: 4px;
-	/*border-radius: 0px;	Connie's edit */
+    font-family: "Circular Std Book", sans-serif;
 	border: none; /*Connie's edit*/
 	padding: 20px;
 	line-height: normal;
 	width: 100%;
 	height: auto;
-	transition: all .2s ease-in-out; /*Connie's edit*/
+	transition: all .2s ease-in-out;
 	display: block;
 
 }
 #mc_embed_signup form {
 	padding-bottom: 0px;
 }
-#mc_embed_signup .button:hover {
-	background-color: #7B4397;
-	border-radius: 16px;
-}
+
 #mc_embed_signup .clear {
 	display: block;
 }

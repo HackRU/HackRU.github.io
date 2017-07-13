@@ -46,7 +46,7 @@ div {
 	text-align: center;
 }
 #home {
-	background-image: url(./assets/background-black.jpg);
+	background-image: url(./assets/background-gradient.jpg);
 	background-position: center bottom;
 	background-size: cover;
 	min-height: 100vh;

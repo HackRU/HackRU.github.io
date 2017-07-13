@@ -14,5 +14,5 @@ routes(app);
 
 // Launch
 app.listen(port, function () {
-    console.log("express has started on port ", port);
+    console.log("Splash page website has started on port %s.", port);
 });

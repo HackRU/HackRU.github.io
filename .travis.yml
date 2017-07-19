@@ -7,5 +7,5 @@ notifications:
   email:
     - chendavid96@gmail.com
     - david.chenese@gmail.com
-  on_success: never
-  on_failure: always
+  on_success: change
+  on_failure: change

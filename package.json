@@ -1,22 +1,21 @@
 {
-  "name": "hackru",
-  "version": "0.0.0",
-  "description": "HackRU Splash Page",
-  "main": "app.js",
+  "name": "HackRU Splash Page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/theHackRU/HackRU-Application.git"
+    "url": "https://github.com/HackRU/splash-page.git"
   },
-  "author": "Team HackRU",
+  "author": "HackRU",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/theHackRU/HackRU-Application/issues"
+    "url": "https://github.com/HackRU/splash-page/issues"
   },
-  "homepage": "https://github.com/theHackRU/HackRU-Application#readme",
+  "homepage": "https://github.com/HackRU/splash-page",
   "dependencies": {
     "express": "^4.14.0",
     "morgan": "^1.7.0"

@@ -1,4 +1,11 @@
 language: node_js
 
 node_js:
- - "stable"
+  - "stable"
+
+notifications:
+  email:
+    - chendavid96@gmail.com
+    - david.chenese@gmail.com
+  on_success: never
+  on_failure: always

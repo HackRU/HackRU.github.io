@@ -1,8 +1,9 @@
 # HackRU Splash Page
-[![node](https://img.shields.io/node/v/gh-badges.svg)]()
+[![node](http://img.shields.io/node/latest-version.svg)]()
 [![npm](https://img.shields.io/npm/v/npm.svg)]()
 [![Build Status](https://travis-ci.org/HackRU/splash-page.svg?branch=master)](https://travis-ci.org/HackRU/splash-page)
-[![license](https://img.shields.io/github/license/HackRU/splash-page.svg)]()
+[![license](https://img.shieds.io/github/license/HackRU/splash-page.svg)]()
+[![GitHub license](https://img.shields.io/badge/license-ISC-blue.svg)]()
 [![Packagist](https://img.shields.io/packagist/v/HackRU/splash-page.svg)]()
 
 This repository is used to store the splash page (landing page, squeeze page, whatever) for HackRU every semester. The splash page is designed to collect potential registrants' emails so that we can send out newsletters and important dates to them. It serves as the temporary landing page of [the HackRU website](http://www.hackru.org/) before the official pages (with signups, application, decisions, dashboard, etc.) are released. Typically, the splash page is created and put up one month before the main website is finished.

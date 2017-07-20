@@ -64,14 +64,14 @@ div {
 	min-height: 100vh;
 }
 .logo {
-    width: 70%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 25px;
 }
 .text-wrapper {
 	margin-top: 30px;
-	font-family: "Circular Std Book", sans-serif;
+	font-family: "Circular Std Book";
 	font-size: 21px;
 }
 .text-wrapper img {
@@ -79,7 +79,7 @@ div {
 }
 .coming-soon {
 	margin: 10px 0px 90px;
-	font-family: "Circular Std Book", sans-serif;
+	font-family: "Circular Std Book";
 	text-transform: uppercase;
 	opacity: .8;
 	letter-spacing: 4px;
@@ -121,7 +121,7 @@ div {
 	padding: 20px;
 	letter-spacing: 4px;
 	font-size: 14px;
-	font-family: "Circular Std Book", sans-serif;
+	font-family: "Circular Std Book";
 	text-transform: uppercase;
 	margin-bottom: 25px;
 	color: white;
@@ -145,7 +145,7 @@ div {
 }
 #mc_embed_signup {
 	margin-top: 30px;
-	font-family: "Circular Std Book", sans-serif;
+	font-family: "Circular Std Book";
 	letter-spacing: 1px;
 	background: none;
 }
@@ -161,7 +161,7 @@ div {
 	color: white;
 	text-transform: uppercase;
 	letter-spacing: 4px;
-    font-family: "Circular Std Book", sans-serif;
+    font-family: "Circular Std Book";
 	border: none; /*Connie's edit*/
 	padding: 20px;
 	line-height: normal;
@@ -183,9 +183,10 @@ div {
 	font-size: 14px;
 }
 h1 {
-	font-family: "Circular Std Bold", sans-serif;
-	font-size: 36px;
+	font-family: "Circular Std Bold";
+	font-size: 40px;
 	text-align: center;
+    letter-spacing: 2px;
 }
 sup {
 	font-size: 13px;

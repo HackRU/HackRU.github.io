@@ -1,27 +1,16 @@
-/*@font-face {*/
-	/*font-family: "Proxima Nova Lt";*/
-	/*src: url(./assets/fonts/proximanova-light-webfont.eot),*/
-		/*url(./assets/fonts/proximanova-light-webfont.ttf),*/
-		/*url(./assets/fonts/proximanova-light-webfont.woff);*/
-/*}*/
-/*@font-face {*/
-	/*font-family: "Proxima Nova Bol";*/
-	/*src: url(./assets/fonts/proximanova-bold-webfont.eot),*/
-		/*url(./assets/fonts/proximanova-bold-webfont.ttf),*/
-		/*url(./assets/fonts/proximanova-bold-webfont.woff);*/
-/*}*/
+/* HackRU Fall 2017 */
 
 @font-face {
     font-family: "Circular Std Bold";
-    src: url(./assets/fonts/CircularStd-Bold.otf);
+    src: url(../fonts/CircularStd-Bold.otf);
 }
 @font-face {
     font-family: "Circular Std Book";
-    src: url(./assets/fonts/CircularStd-Book.otf);
+    src: url(../fonts/CircularStd-Book.otf);
 }
 @font-face {
     font-family: "Circular Std Book Italic";
-    src: url(./assets/fonts/CircularStd-BookItalic.otf);
+    src: url(../fonts/CircularStd-BookItalic.otf);
 }
 
 
@@ -46,7 +35,7 @@ div {
 	text-align: center;
 }
 #home {
-	background-image: url(./assets/background-gradient.jpg);
+	background-image: url(../assets/background-gradient.jpg);
 	background-position: center bottom;
 	background-size: cover;
 	min-height: 100vh;

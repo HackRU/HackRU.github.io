@@ -106,6 +106,8 @@ div {
 }
 .projects {
 	width: 100%;
+	height: auto;
+	display: block;
 	background-color: #DC2430;
 	padding: 20px;
 	letter-spacing: 4px;
@@ -116,11 +118,16 @@ div {
 	color: white;
 	transition: all .2s ease-in-out;
 	position: relative;
+	line-height: normal;
+	border-radius: 5px;
+	-webkit-appearance: none;
+
 }
+
 .projects:hover, #mc_embed_signup .button:hover {
-	/*border-radius: 16px;*/
-	background-color: #7b4397;
+	background-color: #C72B46;
 }
+
 .projects:before {
     color: white;
 	content: "Check out the amazing projects built last HackRU:";
@@ -146,18 +153,19 @@ div {
 }
 #mc_embed_signup .button {
 	background-color: #DC2430;
+	border-radius: 5px;
 	font-size: 14px;
 	color: white;
 	text-transform: uppercase;
 	letter-spacing: 4px;
     font-family: "Circular Std Book";
-	border: none; /*Connie's edit*/
 	padding: 20px;
 	line-height: normal;
 	width: 100%;
 	height: auto;
 	transition: all .2s ease-in-out;
 	display: block;
+	-webkit-appearance: none 
 
 }
 #mc_embed_signup form {
@@ -173,9 +181,9 @@ div {
 }
 h1 {
 	font-family: "Circular Std Bold";
-	font-size: 40px;
+	font-size: 3rem;
 	text-align: center;
-    letter-spacing: 2px;
+    /*letter-spacing: 2px;*/
 }
 sup {
 	font-size: 13px;
@@ -185,7 +193,7 @@ a {
 }
 @media only screen and (max-height: 900px) {
 	.landing-container {
-		padding-top: 50px;
+		padding-top: 35px;
 	}
 }
 @media only screen and (max-width: 400px) {

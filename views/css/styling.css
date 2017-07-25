@@ -63,9 +63,20 @@ div {
 	font-family: "Circular Std Book";
 	font-size: 21px;
 }
+
 .text-wrapper img {
 	margin: 25px;
 }
+
+.sp-text {
+	margin-top: 0px;
+}
+
+.sp-text p {
+	font-family: "Circular Std Book";
+	font-size: 15px;
+}
+
 .coming-soon {
 	margin: 10px 0px 90px;
 	font-family: "Circular Std Book";
@@ -146,6 +157,7 @@ div {
 	background: none;
 }
 #mc_embed_signup input.email {
+	font-family: "Circular Std Book";
 	height: 50px;
 	padding: 20px;
 	margin-bottom: 10px;

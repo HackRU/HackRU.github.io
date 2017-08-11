@@ -1,0 +1,14 @@
+/* HackRU Fall 2017 */
+
+@font-face {
+    font-family: "Circular Std Bold";
+    src: url(../fonts/CircularStd-Bold.otf);
+}
+@font-face {
+    font-family: "Circular Std Book";
+    src: url(../fonts/CircularStd-Book.otf);
+}
+@font-face {
+    font-family: "Circular Std Book Italic";
+    src: url(../fonts/CircularStd-BookItalic.otf);
+}

@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<!--
+ __   __  _______  _______  ___   _  ______    __   __    _______  _______  ___      ___        _______  _______  ____   _______
+|  | |  ||   _   ||       ||   | | ||    _ |  |  | |  |  |       ||   _   ||   |    |   |      |       ||  _    ||    | |       |
+|  |_|  ||  |_|  ||       ||   |_| ||   | ||  |  | |  |  |    ___||  |_|  ||   |    |   |      |____   || | |   | |   | |___    |
+|       ||       ||       ||      _||   |_||_ |  |_|  |  |   |___ |       ||   |    |   |       ____|  || | |   | |   |     |   |
+|       ||       ||      _||     |_ |    __  ||       |  |    ___||       ||   |___ |   |___   | ______|| |_|   | |   |     |   |
+|   _   ||   _   ||     |_ |    _  ||   |  | ||       |  |   |    |   _   ||       ||       |  | |_____ |       | |   |     |   |
+|__| |__||__| |__||_______||___| |_||___|  |_||_______|  |___|    |__| |__||_______||_______|  |_______||_______| |___|     |___|
+
+©2017 HackRU Team at Rutgers University
+Frontend: HackRU Marketing and Design Team (MnD)
+Backend: HackRU Research and Development Team (RnD)
+-->
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta property="og:title" content="HackRU Fall 2017"/>
+<meta property="og:description" content="Get hyped for the best hackathon that Rutgers has to offer! The 13th semiannual HackRU is coming this Fall 2017, from October 14th-15th at College Ave Student Center." />
+<meta property="og:image" content="http://www.hackru.org/assets/hackRU_SP17_avatar.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Sign up for HackRU Fall 2017, taking place from October 14th to 15th.">
+<title>HackRU Fall 2017</title>
+
+<link href="assets/fav.png" rel="shortcut icon" type="image/png"/>
+
+<link rel="stylesheet" type="text/css" href="assets/css/tether.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<script src="js/tether.min.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/font-awesome-4.7.0.js"></script>
+<script src="js/scripts.js"></script>
+</head>
+
+<body>
+<a id="mlh-trust-badge" style="display:block;max-width:90px;min-width:60px;position:fixed;right:20px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2018/events?utm_source=na-2018&utm_medium=TrustBadge&utm_campaign=na-2018&utm_content=red" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2018/black.svg" alt="Major League Hacking 2018 Hackathon Season" style="width:100%"></a>
+<div class="container-fluid">
+
+    <!-- SPONSORSHIP SECTION -->
+    <div class="row min-half-height" id="sponsorship-hero">
+        <div class="col-12">
+
+
+<div class="hidden-lg-down row text-center text-white bg-gradient" id="nav-bar">
+
+    <div class="col-1 offset-2"><a href="http://hackru.org/#about-us" target="_blank"><h5 class="nav-bar-link bold-text">About Us</h5></a></div>
+    <div class="col-1"><a href="http://hackru.org/#schedule" target="_blank"><h5 class="nav-bar-link bold-text">Schedule</h5></a></div>
+
+    <div class="col-2"><img src="../assets/logo.svg" class="nav-bar-logo"></div>
+    <div class="col-1"><a href="http://hackru.org/#faqs" target="_blank"><h5 class="nav-bar-link bold-text">FAQs</h5></a></div>
+    <div class="col-1"><a href="http://hackru.org/#sponsors" target="_blank"><h5 class="nav-bar-link bold-text">Sponsors</h5></a></div>
+    <!-- <div class="col-1"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSddRjq9DIG8HQl48ERSWQq5kdO89Vr05edDD1Fnfgqq8vnzJg/viewform"><h5 class="nav-bar-link bold-text">Mentor</h5></a></div> -->
+    <!-- <div class="col-1"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScg2sf8xi14Zq3ZIouYJof4EsZkCYYZKTQCkC5lltMZxmfGuQ/viewform"><h5 class="nav-bar-link bold-text">Volunteer</h5></a></div> -->
+</div>
+
+
+<!-- mobile nav -->
+<div class="hidden-xl-up row text-center text-white bg-gradient mb-5" id="nav-bar-mobile">
+    <div class="col-8 col-sm-4 offset-2 offset-sm-4"><img src="../assets/logo.svg" class="nav-bar-logo"></div>
+    <div class="col-2 col-sm-4"></div>
+
+    <div class="col-6 col-sm-3"><a href="http://hackru.org/#about-us" target="_blank"><h4 class="bold-text">About Us</h4></a></div>
+    <div class="col-6 col-sm-3"><a href="http://hackru.org/#schedule" target="_blank"><h4 class="bold-text">Schedule</h4></a></div>
+    <div class="col-6 col-sm-3"><a href="http://hackru.org/#faqs" target="_blank"><h4 class="bold-text">FAQs</h4></a></div>
+    <div class="col-6 col-sm-3"><a href="http://hackru.org/#sponsors" target="_blank"><h4 class="bold-text">Sponsors</h4></a></div>
+    <!-- <div class="col-6 col-sm-3 offset-sm-3"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSddRjq9DIG8HQl48ERSWQq5kdO89Vr05edDD1Fnfgqq8vnzJg/viewform"><h4 class="bold-text">Mentor</h4></a></div> -->
+    <!-- <div class="col-6 col-sm-3"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScg2sf8xi14Zq3ZIouYJof4EsZkCYYZKTQCkC5lltMZxmfGuQ/viewform"><h4 class="bold-text">Volunteer</h4></a></div> -->
+
+</div>
+
+
+            <div class="row mt-sm-5">
+
+                <div class="col-10 offset-1 col-xl-6 offset-xl-1">
+                    <div class="row mt-5">
+                        <div class="col-12">
+                            <h1 class="bold-text">What is HackRU?</h1>
+                            <h5 class="text-black">HackRU is a 24-hour hackathon at Rutgers University. We welcome hundreds of students to join us in building awesome software and hardware projects. Industry experts and mentors come from all over the country to create an environment that fosters an atmosphere of learning through tech talks and one-on-one guidance. We encourage beginner and advanced hackers alike to challenge themselves and expand their skills.</h5>
+                            <br>
+                            <h1 class="bold-text">Why sponsor?</h1>
+                            <h5 class="text-black">Sponsoring HackRU is the most powerful recruiting effort you can make for engaging with upcoming tech talent at both Rutgers University and the tech scene at large. The hackathon audience is made up of the industry's most passionate developers, entrepreneurs, and designers. Your representatives will interact directly with these talented potential hires.</h5>
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col-12">
+                            <a href="#packages" class="btn btn-outline-primary smooth-scroll">View the packages</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hidden-lg-down col-xl-4 text-center">
+                    <img id="hero-img" src="./assets/icons/Stamp-Duo-Sponsorship-Site.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END OF SPONSORSHIP SECTION -->
+
+
+    <!-- PACKAGES SECTION -->
+    <div class="row min-half-height text-white bg-gradient skew">
+        <div class="col-10 offset-1 unskew">
+            <div class="row row-title-box">
+                <div class="col-12">
+                    <h2 class="row-title" id="packages">Packages</h2>
+                </div>
+            </div>
+
+            <div class="row row-content-box mt-5">
+                <div class="col-12 text-white">
+
+                    <div class="row spons-levels mb-sm-5">
+                        <div class="col-12 text-center-not-lg col-lg-4 col-xl-3"></div>
+
+                        <div class="col-3 col-lg-2 bold-text text-center">
+                            <h5 class="bronze hidden-xs-down">BRONZE</h5>
+                            <small class="bronze hidden-sm-up bold-text text-center"><i class="fa fa-circle"></i></small>
+                            <small class="bronze hidden-sm-up bold-text text-center">BRNZ</small>
+
+                            <h2 class="hidden-xs-down">$1,500</h2>
+                            <p class="hidden-sm-up bold-text">$1,500</p>
+
+                        </div>
+                        <div class="col-3 col-lg-2 bold-text text-center">
+                            <h5 class="silver hidden-xs-down">SILVER</h5>
+                            <small class="silver hidden-sm-up bold-text text-center"><i class="fa fa-circle"></i></small>
+                            <small class="silver hidden-sm-up bold-text text-center">SLVR</small>
+
+                            <h2 class="hidden-xs-down">$4,000</h2>
+                            <p class="hidden-sm-up bold-text">$4,000</p>
+                        </div>
+                        <div class="col-3 col-lg-2 bold-text text-center">
+                            <h5 class="gold hidden-xs-down">GOLD</h5>
+                            <small class="gold hidden-sm-up bold-text text-center"><i class="fa fa-circle"></i></small>
+                            <small class="gold hidden-sm-up bold-text text-center">GOLD</small>
+
+                            <h2 class="hidden-xs-down">$7,000</h2>
+                            <p class="hidden-sm-up bold-text">$7,000</p>
+                        </div>
+                        <div class="col-3 col-lg-2 bold-text text-center">
+                            <h5 class="plat hidden-xs-down">PLATINUM</h5>
+                            <small class="plat hidden-sm-up bold-text text-center"><i class="fa fa-circle"></i></small>
+                            <small class="plat hidden-sm-up bold-text text-center">PLAT</small>
+
+                            <h2 class="hidden-xs-down">$15,000</h2>
+                            <p class="hidden-sm-up bold-text">$15,000</p>
+                        </div>
+                    </div>
+
+                    <div class="row perk-row">
+                        <div class="col-lg-4 col-xl-3 hidden-md-down"><p class="perk-desc">API/Demo</p></div>
+                        <div class="col-12 text-center hidden-lg-up mt-sm-2 mt-md-5"><h5 class="perk-desc">API/Demo</h5></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select text-white">2 minutes</p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select text-white">3 minutes</p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select text-white">5 minutes</p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select text-white">5 minutes</p></div>
+                    </div>
+
+                    <div class="row perk-row">
+                        <div class="col-lg-4 col-xl-3 hidden-md-down"><p class="perk-desc">Affiliated mentors on site</p></div>
+                        <div class="col-12 text-center hidden-lg-up mt-sm-2 mt-md-5"><h5 class="perk-desc">Affiliated mentors on site</h5></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select bronze"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select silver"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select gold"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select plat"><i class="fa fa-circle"></i></p></div>
+                    </div>
+
+                    <div class="row perk-row">
+                        <div class="col-lg-4 col-xl-3 hidden-md-down"><p class="perk-desc">Reserved table space</p></div>
+                        <div class="col-12 text-center hidden-lg-up mt-sm-2 mt-md-5"><h5 class="perk-desc">Reserved table space</h5></div>
+                        <div class="col-3 col-lg-2 perk-select-col"></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select silver"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select gold"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select plat"><i class="fa fa-circle"></i></p></div>
+                    </div>
+
+                    <div class="row perk-row">
+                        <div class="col-lg-4 col-xl-3 hidden-md-down"><p class="perk-desc">Tech Talk time slot</p></div>
+                        <div class="col-12 text-center hidden-lg-up mt-sm-2 mt-md-5"><h5 class="perk-desc">Tech Talk time slot</h5></div>
+                        <div class="col-3 col-lg-2 perk-select-col"></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select silver"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select gold"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select plat"><i class="fa fa-circle"></i></p></div>
+                    </div>
+
+                    <div class="row perk-row">
+                        <div class="col-lg-4 col-xl-3 hidden-md-down"><p class="perk-desc">Host a mini-event</p></div>
+                        <div class="col-12 text-center hidden-lg-up mt-sm-2 mt-md-5"><h5 class="perk-desc">Host a mini-event</h5></div>
+                        <div class="col-3 col-lg-2 perk-select-col"></div>
+                        <div class="col-3 col-lg-2 perk-select-col"></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select gold"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select plat"><i class="fa fa-circle"></i></p></div>
+                    </div>
+
+                    <div class="row perk-row">
+                        <div class="col-lg-4 col-xl-3 hidden-md-down"><p class="perk-desc">Distribute recruiting material</p></div>
+                        <div class="col-12 text-center hidden-lg-up mt-sm-2 mt-md-5"><h5 class="perk-desc">Distribute recruiting material</h5></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select bronze"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select silver"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select gold"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select plat"><i class="fa fa-circle"></i></p></div>
+                    </div>
+
+                    <div class="row perk-row">
+                        <div class="col-lg-4 col-xl-3 hidden-md-down"><p class="perk-desc">Recruiters on site</p></div>
+                        <div class="col-12 text-center hidden-lg-up mt-sm-2 mt-md-5"><h5 class="perk-desc">Recruiters on site</h5></div>
+                        <div class="col-3 col-lg-2 perk-select-col"></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select silver"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select gold"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select plat"><i class="fa fa-circle"></i></p></div>
+                    </div>
+
+                    <div class="row perk-row">
+                        <div class="col-lg-4 col-xl-3 hidden-md-down"><p class="perk-desc">Hacker resumes and GitHubs</p></div>
+                        <div class="col-12 text-center hidden-lg-up mt-sm-2 mt-md-5"><h5 class="perk-desc">Hacker resumes and GitHubs</h5></div>
+                        <div class="col-3 col-lg-2 perk-select-col"></div>
+                        <div class="col-3 col-lg-2 perk-select-col"></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select text-white">post-event</p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select text-white">pre-event</p></div>
+                    </div>
+
+                    <div class="row perk-row">
+                        <div class="col-lg-4 col-xl-3 hidden-md-down"><p class="perk-desc">Logo on website</p></div>
+                        <div class="col-12 text-center hidden-lg-up mt-sm-2 mt-md-5"><h5 class="perk-desc">Logo on website</h5></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select bronze"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select silver"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select gold"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select plat"><i class="fa fa-circle"></i></p></div>
+                    </div>
+
+                    <div class="row perk-row">
+                        <div class="col-lg-4 col-xl-3 hidden-md-down"><p class="perk-desc">Sponsor a branded prize</p></div>
+                        <div class="col-12 text-center hidden-lg-up mt-sm-2 mt-md-5"><h5 class="perk-desc">Sponsor a branded prize</h5></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select bronze"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select silver"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select gold"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select plat"><i class="fa fa-circle"></i></p></div>
+                    </div>
+
+                    <div class="row perk-row">
+                        <div class="col-lg-4 col-xl-3 hidden-md-down"><p class="perk-desc">Give out swag</p></div>
+                        <div class="col-12 text-center hidden-lg-up mt-sm-2 mt-md-5"><h5 class="perk-desc">Give out swag</h5></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select bronze"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select silver"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select gold"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select plat"><i class="fa fa-circle"></i></p></div>
+                    </div>
+
+                    <div class="row perk-row">
+                        <div class="col-lg-4 col-xl-3 hidden-md-down"><p class="perk-desc">Thanked during opening/closing</p></div>
+                        <div class="col-12 text-center hidden-lg-up mt-sm-2 mt-md-5"><h5 class="perk-desc">Thanked during opening/closing</h5></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select bronze"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select silver"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select gold"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select plat"><i class="fa fa-circle"></i></p></div>
+                    </div>
+
+                    <div class="row perk-row">
+                        <div class="col-lg-4 col-xl-3 hidden-md-down"><p class="perk-desc">Logo on t-shirts</p></div>
+                        <div class="col-12 text-center hidden-lg-up mt-sm-2 mt-md-5"><h5 class="perk-desc">Logo on t-shirts</h5></div>
+                        <div class="col-3 col-lg-2 perk-select-col"></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select silver"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select gold"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select plat"><i class="fa fa-circle"></i></p></div>
+                    </div>
+
+                    <div class="row perk-row">
+                        <div class="col-lg-4 col-xl-3 hidden-md-down"><p class="perk-desc">Distribute info in swag bags</p></div>
+                        <div class="col-12 text-center hidden-lg-up mt-sm-2 mt-md-5"><h5 class="perk-desc">Distribute info in swag bags</h5></div>
+                        <div class="col-3 col-lg-2 perk-select-col"></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select silver"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select gold"><i class="fa fa-circle"></i></p></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select plat"><i class="fa fa-circle"></i></p></div>
+                    </div>
+
+                    <div class="row perk-row">
+                        <div class="col-lg-4 col-xl-3 hidden-md-down"><p class="perk-desc">Pre-event email mentions</p></div>
+                        <div class="col-12 text-center hidden-lg-up mt-sm-2 mt-md-5"><h5 class="perk-desc">Pre-event email mentions</h5></div>
+                        <div class="col-3 col-lg-2 perk-select-col"></div>
+                        <div class="col-3 col-lg-2 perk-select-col"></div>
+                        <div class="col-3 col-lg-2 perk-select-col"></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select plat"><i class="fa fa-circle"></i></p></div>
+                    </div>
+
+                    <div class="row perk-row">
+                        <div class="col-lg-4 col-xl-3 hidden-md-down"><p class="perk-desc">Distribute info at registration</p></div>
+                        <div class="col-12 text-center hidden-lg-up mt-sm-2 mt-md-5"><h5 class="perk-desc">Distribute info at registration</h5></div>
+                        <div class="col-3 col-lg-2 perk-select-col"></div>
+                        <div class="col-3 col-lg-2 perk-select-col"></div>
+                        <div class="col-3 col-lg-2 perk-select-col"></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select plat"><i class="fa fa-circle"></i></p></div>
+                    </div>
+
+                    <div class="row perk-row">
+                        <div class="col-lg-4 col-xl-3 hidden-md-down"><p class="perk-desc">Sponsor lounge</p></div>
+                        <div class="col-12 text-center hidden-lg-up mt-sm-2 mt-md-5"><h5 class="perk-desc">Sponsor lounge</h5></div>
+                        <div class="col-3 col-lg-2 perk-select-col"></div>
+                        <div class="col-3 col-lg-2 perk-select-col"></div>
+                        <div class="col-3 col-lg-2 perk-select-col"></div>
+                        <div class="col-3 col-lg-2 perk-select-col"><p class="perk-select plat"><i class="fa fa-circle"></i></p></div>
+                    </div>
+
+                    <div class="row spons-levels-select mt-5 mb-5">
+                        <div class="col-12 text-center-not-lg col-lg-4 col-xl-3"></div>
+                        <div class="col-12 mb-3 col-md-6 col-lg-2 bold-text text-center"><button id="spons-level-btn-brz" class="btn btn-block spons-level-button bg-bronze">Select Bronze</button></div>
+                        <div class="col-12 mb-3 col-md-6 col-lg-2 bold-text text-center"><button id="spons-level-btn-sil" class="btn btn-block spons-level-button bg-silver">Select Silver</button></div>
+                        <div class="col-12 mb-3 col-md-6 col-lg-2 bold-text text-center"><button id="spons-level-btn-gld" class="btn btn-block spons-level-button bg-gold">Select Gold</button></div>
+                        <div class="col-12 mb-3 col-md-6 col-lg-2 bold-text text-center"><button id="spons-level-btn-plt" class="btn btn-block spons-level-button bg-plat">Select Platinum</button></div>
+                    </div>
+
+
+
+                </div>
+
+
+                <div class="col-12 col-lg-8 offset-lg-2">
+                    <h2 class="text-white text-center bold-text hidden-sm-down">If you'd prefer a customized package, send us an email at sponsorship@hackru.org and we'll chat from there!</h2>
+                    <h4 class="text-white text-center bold-text hidden-md-up">If you'd prefer a customized package, send us an email at sponsorship@hackru.org and we'll chat from there!</h4>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- END OF PACKAGES SECTION -->
+
+
+    <!-- CONTACT US SECTION -->
+    <div class="row min-quarter-height theme-purple">
+        <div class="col-10 offset-1">
+            <div class="row row-title-box">
+                <div class="col-12">
+                    <h2 class="row-title" id="contact">Contact</h2>
+                </div>
+            </div>
+
+            <div class="row row-content-box">
+                <div class="col-12">
+                    <!--<div class="loading-bar-box">-->
+                        <!--<div class="loading-bar"></div>-->
+
+                    <!--</div>-->
+
+                    <div class="progress mb-5">
+                        <div class="progress-bar" role="progressbar" style="width:0"></div>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-5">
+                    <h2 class="package-thanks theme-purple bold-text">Thanks for choosing <span id="package-selected-text" class="bold-text">to sponsor HackRU</span>!</h2>
+                </div>
+
+                <div class="col-12 mb-5 col-xl-5 mb-xl-0">
+                    <h5 class="bold-text">Your sponsorship provides us with the resources to empower the next generation of students. In return, you will have the opportunity to recruit some of the smartest tech talent in the nation. Please fill out the form so we can chat about the sponsorship package that's right for you.</h5>
+                </div>
+
+                <div class="col-12 col-xl-7">
+                    <form method="post" class="spons-contact-form">
+                        <div class="form-group row">
+                            <input id="input-package-name" name="input-package-name" type="hidden" value="NoneSelected">
+
+
+                            <label for="sp_email" class="col-12 col-xl-2 col-form-label"><h5 class="bold-text">Email</h5></label>
+                            <div class="col-12 col-xl-6">
+                                <input type="email" class="form-control" id="sp-email" name="sp_email" placeholder="Email">
+                            </div>
+
+                            <div class="hidden-lg-down col-xl-4 text-right">
+                                <button type="submit" class="btn btn-block">Submit Message</button>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="sp_message" class="col-12 col-xl-2 col-form-label"><h5 class="bold-text">Message</h5></label>
+                            <div class="col-12 col-xl-10">
+                                <textarea class="form-control" id="sp-message" name="sp_message" rows="3" placeholder="Message">Hi! Let's chat about sponsoring HackRU.</textarea>
+                            </div>
+
+                            <div class="hidden-xl-up col-12 mt-5 text-center">
+                                <button type="submit" class="btn">Submit Message</button>
+                            </div>
+                        </div>
+
+
+                    </form>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- END OF CONTACT US SECTION -->
+
+
+    <!-- FOOTER SECTION -->
+<div class="row text-black li-footer hidden-md-down">
+    <div class="col-10 offset-1">
+
+        <div class="row ">
+            <div class="col-4 text-center text-left-lg">
+                <h6 class="text-vcenter">
+                    <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">MLH's Code of Conduct</a>
+                </h6>
+            </div>
+
+            <div class="col-4 text-center">
+
+                <a href="mailto:info@hackru.org" class="social-links" data-email="info@hackru.org" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/theHackRU/" class="social-links" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/thehackru/" class="social-links" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://medium.com/the-hackru" class="social-links" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/theHackRU" class="social-links" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+
+            </div>
+
+
+            <div class="col-4 mb-5 mb-lg-0 text-center text-right-lg">
+
+                <a href="https://mlh.io/" target="_blank">
+                    <img class="footer-logo" src="../assets/icons/mlh-logo.svg" alt="MLH logo">
+                </a>
+                <a href="http://usacs.rutgers.edu/" target="_blank">
+                    <img class="footer-logo" src="../assets/icons/usacs-logo.svg" alt="USACS logo">
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="row text-black li-mobile-footer hidden-lg-up">
+    <div class="col-12">
+
+        <div class="row ">
+            <div class="col-12 text-center text-left-lg">
+                <h5 class="text-vcenter">
+                    <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">MLH's Code of Conduct</a>
+                </h5>
+            </div>
+
+            <div class="col-12 text-center">
+
+                <a href="mailto:info@hackru.org" class="social-links" data-email="info@hackru.org" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/theHackRU/" class="social-links" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/thehackru/" class="social-links" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://medium.com/the-hackru" class="social-links" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/theHackRU" class="social-links" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+
+            </div>
+
+
+            <div class="col-12 text-center text-right-lg">
+
+                <a href="https://mlh.io/" target="_blank">
+                    <img class="footer-logo" src="../assets/icons/mlh-logo.svg" alt="MLH logo">
+                </a>
+                <a href="http://usacs.rutgers.edu/" target="_blank">
+                    <img class="footer-logo" src="../assets/icons/usacs-logo.svg" alt="USACS logo">
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+    <!-- END FOOTER SECTION -->
+
+</div>
+</body>
+</html>
+

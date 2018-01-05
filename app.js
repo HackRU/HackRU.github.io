@@ -1,0 +1,21 @@
+// Dependencies
+const express = require('express');
+const morgan  = require('morgan');
+const routes  = require('./app/routes/routes.js');
+const config  = require('./config/config.js');
+
+// Set up Application
+const app = express();
+var port = process.env.PORT || 8080;
+
+app.use(morgan('dev'));
+
+app.use(express.static(__dirname + "/views"));
+app.use("/waiver", express.static(__dirname + "/views/assets/hackru_f17_waiver.pdf"));
+
+routes(app);
+
+// Launch
+app.listen(port, function () {
+    console.log("Splash page website has started on port %s.", port);
+});

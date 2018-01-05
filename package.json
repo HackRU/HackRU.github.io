@@ -1,0 +1,24 @@
+{
+  "name": "hackru-splash-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HackRU/splash-page.git"
+  },
+  "author": "HackRU",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HackRU/splash-page/issues"
+  },
+  "homepage": "https://github.com/HackRU/splash-page",
+  "dependencies": {
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  }
+}

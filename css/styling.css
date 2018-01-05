@@ -115,7 +115,7 @@ div {
 	width: 70px;
 	display: inline-block
 }
-.projects {
+.projects, .mailing-list {
 	width: 100%;
 	height: auto;
 	display: block;

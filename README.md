@@ -1,2 +1,4 @@
-# ruhackhers-2018-coming-soon
-Splash page for HackHERS 2018
+
+# HackRU splash page
+
+A mirror of frontend for now, while I'm too lazy.

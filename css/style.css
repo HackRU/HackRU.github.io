@@ -8,6 +8,9 @@
 @font-face {
   font-family: "Circular Std Book Italic";
   src: url(../fonts/CircularStd-BookItalic.otf); }
+@font-face {
+  font-family: "Helvetica Regular";
+  src: url(../fonts/helvetica-regular.otf); }
 .text-left-not-xs, .text-left-not-sm, .text-left-not-md, .text-left-not-lg {
   text-align: left; }
 
@@ -135,7 +138,7 @@ body {
   /* IE6-9 fallback on horizontal gradient */ }
 
 .bg-splash, #hero {
-  background-image: url(../assets/bg-splash.jpg);
+  background-image: url(../assets/splash-bg-lowglow.png);
   background-size: cover; }
 
 a {
@@ -168,10 +171,10 @@ a:hover, a:focus {
   min-height: 25vh; }
 
 .bold-text, .btn, .row-title-box .row-title, .faq-q, .spons-level, .perk-row .perk-desc, .splogo-text, .footer a, .li-nav-bar .nav-item:hover .nav-link, .li-section-title-box .li-section-title, .social-link-card p, .li-footer a, .li-mobile-footer a {
-  font-family: "Circular Std Bold", sans-serif; }
+  font-family: "Helvetica Regular", sans-serif; }
 
 *, input, select, textarea {
-  font-family: "Circular Std Book", sans-serif; }
+  font-family: "Helvetica Regular", sans-serif; }
 
 .btn {
   background-color: #FFF242;
@@ -310,6 +313,9 @@ a:hover, a:focus {
 .faq-a {
   color: white;
   margin-bottom: 30px; }
+.faq-a a {
+  color: #FFF242;
+}
 
 .spons-level {
   text-transform: uppercase;

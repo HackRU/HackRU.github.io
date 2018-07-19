@@ -489,3 +489,23 @@ a:hover, a:focus {
   width: 80%; }
 
 /*# sourceMappingURL=style.css.map */
+.dot {
+  height: 7px;
+  width: 7px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+}
+@media (min-width: 992px) {
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+}
+}
+
+.skew a {
+  color: #FFF242;
+}

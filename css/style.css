@@ -81,7 +81,9 @@
   .text-justify-lg {
     text-align: justify; } }
 body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  background: #white;
+}
 
 .bronze {
   color: #C96F0D !important; }
@@ -111,23 +113,23 @@ body {
   background: none !important; }
 
 .theme-purple {
-  color: #7B4397; }
+  color: #7852C9; }
 
 .theme-red {
-  color: #DC2430; }
+  color: #7852C9; }
 
 .text-black {
   color: black; }
 
 .bg-gradient, .bg-splash, #hero, .about-map-container, .progress-bar, .li-footer, .li-mobile-footer {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7b4397+0,dc2430+100 */
-  background: #7B4397;
+  background: #39275E;
   /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #7B4397 0%, #DC2430 100%);
+  background: -moz-linear-gradient(-45deg, #39275E 0%, #7852C9 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #7B4397 0%, #DC2430 100%);
+  background: -webkit-linear-gradient(-45deg, #39275E 0%, #7852C9 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #7B4397 0%, #DC2430 100%);
+  background: linear-gradient(135deg, #39275E 0%, #7852C9 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$color-purple', endColorstr='$color-red', GradientType=1);
   /* IE6-9 fallback on horizontal gradient */ }
@@ -137,9 +139,11 @@ body {
   background-size: cover; }
 
 a {
-  color: #7B4397; }
-  a:hover, a:focus {
-    color: #DC2430; }
+  color: #7852C9;
+}
+a:hover, a:focus {
+  color: #39275E;
+}
 
 .z-top {
   z-index: 999; }
@@ -170,13 +174,13 @@ a {
   font-family: "Circular Std Book", sans-serif; }
 
 .btn {
-  background-color: #DC2430;
-  color: white;
+  background-color: #FFF242;
+  color: #7852C9;
   border: none; }
   .btn:hover {
-    background-color: #7B4397; }
+    background-color: #39275E; }
   .btn:active {
-    background-color: #7B4397;
+    background-color: #39275E;
     border: none; }
   .btn:focus {
     color: white;
@@ -354,15 +358,15 @@ a {
 
 .footer {
   height: 10vh;
-  color: #DC2430;
-  background-color: white; }
+  color: #7852C9;
+  background-color: #white; }
   .footer .text-vcenter {
     margin: 0;
     line-height: 10vh; }
   .footer .social-links {
     font-size: 175%; }
   .footer a {
-    color: #DC2430;
+    color: #7852C9;
     line-height: 10vh;
     padding: 15px 10px; }
   .footer .footer-logo {

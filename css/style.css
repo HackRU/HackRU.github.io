@@ -95,7 +95,10 @@ body {
   color: #B7B7B7 !important; }
 
 .gold, .faq-q {
-  color: #F9DC62 !important; }
+  color: #FFFFFF !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
 .plat {
   color: #D8D8D8 !important; }
@@ -178,7 +181,7 @@ a:hover, a:focus {
 
 .btn {
   background-color: #FFF242;
-  color: #7852C9;
+  color: #000000;
   border: none; }
   .btn:hover {
     background-color: #39275E; }

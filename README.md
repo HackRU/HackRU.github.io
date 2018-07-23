@@ -41,6 +41,11 @@ All the CSS lives in the css folder.
 
 Update with Sci-fi goodies! :alien:
 
+Colors:
+- dark purple: #3927%E
+- light purple: #7852C9
+- yellow: #FFF242
+
 ## Docs
 
 If you don't have `git` on a command line (meaning, basically, you run windows)
